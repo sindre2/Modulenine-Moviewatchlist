@@ -1,0 +1,100 @@
+
+/* --- General settings to avoid DRY-ness --- */
+
+html, 
+body
+{
+    margin: 0; 
+    padding: 0;
+}
+
+input, 
+button
+{
+    background-color: whitesmoke; 
+    height: 2rem;
+    border: 2px solid lightslategray;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+input
+{
+    width: 80%;
+    border-radius: 4px 0 0 4px;
+}
+
+button
+{
+    border-radius: 0 4px 4px 0;
+    width: 20%;
+}   
+
+form
+{
+    width: 80%;
+}
+
+img
+{
+    display: block;
+}
+    
+/* To increase specificity so the "hidden-class" override the "header" tag, write ".hidden" 11 times. Black-belt level(Steven Segal version) CSS. */
+
+/* .hidden.hidden.hidden.hidden.hidden.hidden.hidden.hidden.hidden.hidden.hidden.hidden */
+
+html body .hidden,
+#subcontainer .hidden
+{
+    display: none;
+}
+
+/* --- END --- */ 
+
+
+/* --- Top section of the site --- */
+
+header
+{
+    background-color: red; 
+    justify-content: space-between;
+    position: fixed;
+
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.movie-search
+{
+    display: flex;
+}
+
+h1, 
+h3
+{
+    margin: 2rem;
+    color: white;
+}
+
+#watch-btn, 
+#film-btn
+{
+    margin-right: 4rem;
+    transform: scale(1);
+    transition: transform 250ms;
+}
+
+#watch-btn:hover, 
+#film-btn:hover
+{
+    color: aqua;
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+/* --- END --- */

@@ -1,0 +1,148 @@
+
+/* --- Main section --- */
+
+.show-results
+{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0 4rem;
+}
+
+.inputBtn
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* --- END --- */
+
+
+/* - Main section, repeated settings for movie results and watchlist - */
+
+.movie-description
+{
+    flex-direction: column;
+    margin: 0;
+    display: flex;
+}
+
+.movie-container,
+.watchlist-container
+{
+    margin-top: 6.3rem;
+    width: 100%;
+}
+
+.movie-add
+{
+    display: flex;
+    align-items: center;
+    
+}
+
+.movie-add > button
+{
+    width: 2rem;
+    border-radius: 50%;
+    background-color: white;
+    
+    margin-left: 1rem;
+    position: initial;
+}
+
+.movie-add > button:hover, 
+.movie-add  > button:focus
+{
+    background-color: black;
+    color: white;
+    position: initial;
+}
+
+.movie-block
+{
+    display: flex;
+}
+
+.watchlist-add > img
+{
+    margin-left: 2rem;
+    align-self: center;
+}
+
+.movie-block > img, 
+.watchlist-addsmall > img
+{
+    width: 100px;
+}
+
+.movie-block > img
+{
+    margin: 0 5rem 2rem 0;
+}
+
+.watchlist-addsmall > img
+{
+    margin: 0 5rem 0.3rem 0
+}
+
+/* --- END --- */
+
+/* --- Main section, movielist --- */
+
+.movie-container
+{
+    display: flex;
+    justify-content: center;
+}
+
+/* --- Main section, watchlist --- */
+
+.watchlist-container
+{
+    display: flex;
+    justify-content: center;
+}
+
+.watchlist-add
+{
+    display: flex;
+    align-items: center;
+}
+
+.watchlist-addsmall
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 200px;
+    margin-top: 2rem;
+}
+
+.watchlist-btnbox
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+}
+
+.watchlist-btnbox > button
+{
+    width: 2rem;
+    background-color: gainsboro; 
+    height: 2rem;
+    border: 2px solid rgb(14, 212, 67);
+    box-sizing: border-box;
+    position: inherit;
+}
+
+.watchlist-btnbox > button:hover
+{
+    background-color: blueviolet;
+}
+
+
+
+/* --- END --- */
